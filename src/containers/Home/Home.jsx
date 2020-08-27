@@ -4,6 +4,7 @@ import NavBar from "../../components/Navigation/Navbar";
 
 const Home = () => {
   const [mobile, setMobile] = useState(false);
+  const [content, setContent] = useState("Home");
 
   useEffect(() => {
     let browserWidth = window.innerWidth;
@@ -14,7 +15,7 @@ const Home = () => {
 
   return (
     <Grid container>
-      <NavBar />
+      <NavBar value={content} />
     </Grid>
   );
 };

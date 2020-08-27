@@ -7,9 +7,9 @@ import NavContact from "./components/NavContact";
 const NavBar = (props) => {
   return (
     <AppBar position='static'>
-      <Grid container spacing={24}>
+      <Grid container>
         <Grid item lg={6}>
-          <NavTabs />
+          <NavTabs value={props.value} />
         </Grid>
         <Grid item lg={6}>
           <NavContact />
