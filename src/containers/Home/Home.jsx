@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import Grid from "@material-ui/core/Grid";
+import NavBar from "../../components/Navigation/Navbar";
 
 const Home = () => {
   const [mobile, setMobile] = useState(false);
@@ -13,7 +14,7 @@ const Home = () => {
 
   return (
     <Grid container>
-      <h1>Placeholder</h1>
+      <NavBar />
     </Grid>
   );
 };
