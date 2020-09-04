@@ -6,7 +6,7 @@ const NavTabs = (props) => {
   return (
     <>
       <Tabs value={props.value}>
-        <Tab value='Home' />
+        <Tab value='Home' label='Logo Here' />
         <Tab value='Services' label='Services' />
         <Tab value='Gallery' label='Gallery' />
         <Tab value='Contact' label='Contact' />

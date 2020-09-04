@@ -1,10 +1,11 @@
 import React, { useEffect, useState } from "react";
 import Grid from "@material-ui/core/Grid";
 import NavBar from "../../components/Navigation/Navbar";
+import LandingPage from "../Landing/LandingPage";
 
 const Home = () => {
   const [mobile, setMobile] = useState(false);
-  const [content, setContent] = useState("Home");
+  const [value, setValue] = useState("Home");
 
   useEffect(() => {
     let browserWidth = window.innerWidth;
@@ -15,7 +16,8 @@ const Home = () => {
 
   return (
     <Grid container>
-      <NavBar value={content} />
+      <NavBar value={value} />
+      {value === "Home" && <LandingPage />}
     </Grid>
   );
 };
