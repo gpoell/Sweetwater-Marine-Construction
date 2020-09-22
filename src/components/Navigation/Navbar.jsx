@@ -7,10 +7,8 @@ import NavContact from "./components/NavContact";
 const NavBar = (props) => {
   return (
     <ContentWrapper>
-      <Grid container item xs={12} justify='center' style={{ padding: 20 }}>
-        <Typography variant='h2'>Sweetwater Marine Construction</Typography>
-      </Grid>
-      {/* <NavContact /> */}
+      <Typography variant='h2'>Sweetwater Marine Construction</Typography>
+      <NavContact />
     </ContentWrapper>
   );
 };

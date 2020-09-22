@@ -6,11 +6,10 @@ export const styles = {
   card: {
     width: 450,
     margin: 20,
-    border: "0.5px solid",
-    borderColor: "#d4af37",
   },
   media: {
-    height: 200,
+    height: 300,
+    boxShadow: "0 0 1.5rem rgba(105, 105, 105, .5)",
   },
   button: {
     marginRight: 15,

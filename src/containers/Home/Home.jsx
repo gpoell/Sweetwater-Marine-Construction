@@ -3,8 +3,7 @@ import Grid from "@material-ui/core/Grid";
 import LandingImage from "../../components/Landing/LandingImage";
 import ContentWrapper from "../../components/ContentWrapper/ContentWrapper";
 import NavBar from "../../components/Navigation/Navbar";
-import LandingPage from "../Landing/LandingPage";
-import Services from "../Services/Services";
+import Services from "../Business/Services";
 
 const Home = () => {
   const [mobile, setMobile] = useState(false);
@@ -25,10 +24,9 @@ const Home = () => {
     <Grid container>
       <NavBar value={value} handleChange={handleChange} />
       <LandingImage />
-      {/* <ContentWrapper>
-        {value === "Home" && <LandingPage />}
-        {value === "Services" && <Services mobile={mobile} />}
-      </ContentWrapper> */}
+      <ContentWrapper>
+        <Services mobile={mobile} />
+      </ContentWrapper>
     </Grid>
   );
 };

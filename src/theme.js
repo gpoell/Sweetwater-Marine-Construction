@@ -38,16 +38,17 @@ export default createMuiTheme({
         fontSize: 28,
         fontWeight: 700,
         fontFamily: "Georgia",
-        color: "#0058A0",
+        color: "#00004d",
         "@media (max-width:760px)": {
           fontSize: 34,
           marginBottom: 15,
           textAlign: "center",
         },
       },
+      // Section Header
       h3: {
-        fontSize: 38,
-        color: "#fff",
+        fontSize: 52,
+        color: "black",
         fontWeight: 400,
         fontFamily: "Georgia",
         marginBottom: 30,
@@ -57,10 +58,9 @@ export default createMuiTheme({
           marginBottom: 20,
         },
       },
-      // Footer
+      // Service Headers/Titles
       h4: {
-        fontSize: 14,
-        fontWeight: 700,
+        fontSize: 32,
         fontColor: "#00004d",
         "@media (max-width:800px)": {
           fontSize: 14,

@@ -23,10 +23,10 @@ const NavContact = (props) => {
       </Grid> */}
       <Grid container item xs={12} alignItems='center' justify='center'>
         <Button
-          variant='contained'
-          color='primary'
+          variant='text'
+          color='secondary'
           href='tel:8283711707'
-          size='large'
+          size='small'
           disableElevation
           startIcon={<PhoneIcon />}
         >
