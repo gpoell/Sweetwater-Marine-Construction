@@ -33,6 +33,18 @@ export default createMuiTheme({
           fontWeight: 700,
         },
       },
+      // Navigation
+      h2: {
+        fontSize: 32,
+        fontWeight: 700,
+        fontFamily: "Georgia",
+        color: "#0058A0",
+        "@media (max-width:760px)": {
+          fontSize: 34,
+          marginBottom: 15,
+          textAlign: "center",
+        },
+      },
       h3: {
         fontSize: 38,
         color: "#fff",
@@ -43,20 +55,6 @@ export default createMuiTheme({
           fontSize: 18,
           fontWeight: 400,
           marginBottom: 20,
-        },
-      },
-      // Section Headers
-      h2: {
-        fontSize: 56,
-        fontWeight: 500,
-        fontFamily: "Georgia",
-        marginBottom: 30,
-        color: "#0058A0",
-        maxHeight: 128,
-        "@media (max-width:760px)": {
-          fontSize: 24,
-          fontWeight: 700,
-          marginBottom: 15,
         },
       },
       // Footer

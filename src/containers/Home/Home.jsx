@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import Grid from "@material-ui/core/Grid";
+import LandingImage from "../../components/Landing/LandingImage";
 import ContentWrapper from "../../components/ContentWrapper/ContentWrapper";
 import NavBar from "../../components/Navigation/Navbar";
 import LandingPage from "../Landing/LandingPage";
@@ -23,10 +24,11 @@ const Home = () => {
   return (
     <Grid container>
       <NavBar value={value} handleChange={handleChange} />
-      <ContentWrapper>
+      <LandingImage />
+      {/* <ContentWrapper>
         {value === "Home" && <LandingPage />}
         {value === "Services" && <Services mobile={mobile} />}
-      </ContentWrapper>
+      </ContentWrapper> */}
     </Grid>
   );
 };

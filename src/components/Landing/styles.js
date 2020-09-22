@@ -4,7 +4,6 @@ export const styles = {
   },
   photo: {
     width: "100%",
-    maxHeight: 700,
-    boxShadow: "0 0 1.5rem rgba(105,105,105,.5)",
+    // boxShadow: "0 0 1.5rem rgba(105,105,105,.5)",
   },
 };

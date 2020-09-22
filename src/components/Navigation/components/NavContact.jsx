@@ -7,8 +7,8 @@ import Button from "@material-ui/core/Button";
 
 const NavContact = (props) => {
   return (
-    <Grid container>
-      <Grid container item lg={8} alignItems='center' justify='flex-end'>
+    <>
+      {/* <Grid container item xs={12} justify='center'>
         <Button
           variant='text'
           color='secondary'
@@ -20,8 +20,8 @@ const NavContact = (props) => {
             SweetwaterMarineConstruction@yahoo.com
           </Typography>
         </Button>
-      </Grid>
-      <Grid container item lg={4} alignItems='center' justify='center'>
+      </Grid> */}
+      <Grid container item xs={12} alignItems='center' justify='center'>
         <Button
           variant='contained'
           color='primary'
@@ -33,7 +33,7 @@ const NavContact = (props) => {
           <Typography variant='h6'>(828) 371-1707</Typography>
         </Button>
       </Grid>
-    </Grid>
+    </>
   );
 };
 export default NavContact;
