@@ -12,15 +12,15 @@ const ServiceOptions = (props) => {
     <>
       {props.options.map((option, index) => (
         <Zoom in timeout={index === 0 ? 500 : index * 750} key={index}>
-          <Grid container item md={6} lg={4}>
-            <Card style={styles.card}>
+          <Grid container item md={6} lg={4} style={styles.container}>
+            <Card style={styles.card} variant='outlined'>
               <CardMedia
                 style={styles.media}
                 image={option.image}
                 title={option.title}
               />
-              <Typography variant='h4'>{option.title}</Typography>
               <CardContent>
+                <Typography variant='h4'>{option.title}</Typography>
                 <Typography variant='subtitle2'>
                   {option.description}
                 </Typography>

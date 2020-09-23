@@ -8,10 +8,14 @@ export const styles = {
     margin: 20,
   },
   media: {
-    height: 300,
+    height: 250,
+    width: "100%",
     boxShadow: "0 0 1.5rem rgba(105, 105, 105, .5)",
   },
   button: {
     marginRight: 15,
+  },
+  container: {
+    padding: 30,
   },
 };

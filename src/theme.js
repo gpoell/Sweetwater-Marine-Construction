@@ -112,5 +112,10 @@ export default createMuiTheme({
         textTransform: "none",
       },
     },
+    MuiPaper: {
+      outlined: {
+        border: "none",
+      },
+    },
   },
 });
