@@ -117,5 +117,10 @@ export default createMuiTheme({
         border: "none",
       },
     },
+    MuiCardContent: {
+      root: {
+        paddingLeft: 0,
+      },
+    },
   },
 });

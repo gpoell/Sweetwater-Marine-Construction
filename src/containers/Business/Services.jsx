@@ -8,7 +8,7 @@ const Services = () => {
   return (
     <>
       <Grid container item xs={12} justify='center' style={{ marginTop: 60 }}>
-        <Typography variant='h3'>What We Do</Typography>
+        <Typography variant='h3'>How Can We Help?</Typography>
       </Grid>
       <ServiceOptions options={options} />
     </>

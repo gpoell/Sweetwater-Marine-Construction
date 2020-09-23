@@ -7,33 +7,39 @@ import seawall3 from "../../images/templates/seawall3.jpg";
 
 export const options = [
   {
-    title: "Service",
+    title: "Piles",
     image: barge2,
-    description: "Some text here describing the service.",
+    description:
+      "Piles are critical for a secure dock foundation. We drive piles deep into the soil to provide the strongest support for your dock.",
   },
   {
-    title: "Service",
+    title: "Custom Docks",
     image: dock1,
-    description: "Some text here describing the service.",
+    description:
+      "Custom docks are designed to your requirements, providing your boat with additional coverage to protect it from the weather.",
   },
   {
-    title: "Service",
+    title: "Shoreline Management",
     image: seawall2,
-    description: "Some text here describing the service.",
+    description:
+      "We provide an array of solutions for your shoreline to protect it from erosion and flooding.",
   },
   {
-    title: "Service",
+    title: "Dock Repairs",
     image: seawall3,
-    description: "Some text here describing the service.",
+    description:
+      "We provide an array of services to help you maintaing a strong dock foundation.",
   },
   {
-    title: "Service",
+    title: "Barge Services",
     image: barge3,
-    description: "Some text here describing the service.",
+    description:
+      "Our barge services are available for whatever reason you may need it.",
   },
   {
-    title: "Service",
+    title: "Basic Docks",
     image: dock2,
-    description: "Some text here describing the service.",
+    description:
+      "These docks are a faster and simpler solution to providing your boat a home on the water.",
   },
 ];
