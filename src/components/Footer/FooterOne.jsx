@@ -7,10 +7,9 @@ import PhoneIcon from "@material-ui/icons/Phone";
 const FooterOne = () => {
   return (
     <>
-      <Grid container item xs={8}>
+      <Grid container item xs={10} md={8}>
         <Typography variant='h5'>
-          Call us today for questions about our services or inquiries about new
-          services.
+          Call today for more information about our services!
         </Typography>
       </Grid>
       <Grid container item xs={12} justify='center'>
@@ -22,7 +21,7 @@ const FooterOne = () => {
           disableElevation
           startIcon={<PhoneIcon />}
         >
-          <Typography variant='h6'>Call Today</Typography>
+          <Typography variant='h6'>(828) 371-1707</Typography>
         </Button>
       </Grid>
     </>

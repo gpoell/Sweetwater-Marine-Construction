@@ -5,7 +5,7 @@ import { styles } from "./styles";
 
 const FooterTwo = () => {
   return (
-    <Grid container item md={12} justify='center'>
+    <Grid container item xs={8} sm={12} justify='center'>
       <Typography variant='subtitle1' style={styles.footerTwo}>
         Sweetwater Marine Construction &#169; 2019 | Charlotte, North Carolina
       </Typography>

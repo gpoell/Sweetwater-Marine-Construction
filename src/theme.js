@@ -77,7 +77,7 @@ export default createMuiTheme({
         color: "#0058A0",
         textAlign: "center",
         "@media (max-width:800px)": {
-          fontSize: 24,
+          fontSize: 30,
           fontWeight: 700,
           marginBottom: 15,
         },
@@ -102,9 +102,9 @@ export default createMuiTheme({
         paddingTop: 20,
         paddingBottom: 20,
         color: "#fff",
+        textAlign: "center",
         "@media (max-width:760px)": {
-          fontSize: 16,
-          marginBottom: 15,
+          fontSize: 12,
         },
       },
     },
