@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import Grid from "@material-ui/core/Grid";
 import Navigation from "../containers/Navigation/Navigation";
-import LandingImage from "../components/Landing/LandingImage";
+import Landing from "../containers/Landing/Landing";
 import ContentWrapper from "../components/ContentWrapper/ContentWrapper";
 import Services from "../containers/Business/Services";
 import Footer from "../containers/Footer/Footer";
@@ -19,7 +19,7 @@ const Home = () => {
   return (
     <Grid container>
       <Navigation />
-      <LandingImage />
+      <Landing />
       <ContentWrapper>
         <Services mobile={mobile} />
       </ContentWrapper>
