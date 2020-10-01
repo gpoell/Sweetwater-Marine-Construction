@@ -19,7 +19,7 @@ export const options = [
       "Custom docks are designed to your requirements, providing your boat with additional coverage to protect it from the weather.",
   },
   {
-    title: "Shoreline Management",
+    title: "Shore Management",
     image: seawall2,
     description:
       "We provide an array of solutions for your shoreline to protect it from erosion and flooding.",

@@ -54,18 +54,18 @@ export default createMuiTheme({
         fontFamily: "Georgia",
         marginBottom: 30,
         "@media (max-width:760px)": {
-          fontSize: 18,
+          fontSize: 34,
           fontWeight: 400,
-          marginBottom: 20,
+          marginBottom: 0,
         },
       },
       // Service Headers/Titles
       h4: {
-        fontSize: 32,
+        fontSize: 30,
         fontColor: "#00004d",
+        marginBottom: 10,
         "@media (max-width:800px)": {
-          fontSize: 14,
-          fontWeight: 700,
+          fontSize: 32,
         },
       },
       // Footer One

@@ -6,7 +6,7 @@ export const styles = {
     borderColor: "#00004d",
   },
   services: {
-    backgroundColor: "#f6f6f6",
+    backgroundColor: "#fff",
     paddingTop: 60,
     paddingBottom: 60,
   },
