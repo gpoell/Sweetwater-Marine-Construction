@@ -4,6 +4,7 @@ import LandingImage from "../../components/Landing/LandingImage";
 import ContentWrapper from "../../components/ContentWrapper/ContentWrapper";
 import NavBar from "../../components/Navigation/Navbar";
 import Services from "../Business/Services";
+import Footer from "../Footer/Footer";
 
 const Home = () => {
   const [mobile, setMobile] = useState(false);
@@ -27,6 +28,7 @@ const Home = () => {
       <ContentWrapper>
         <Services mobile={mobile} />
       </ContentWrapper>
+      <Footer />
     </Grid>
   );
 };

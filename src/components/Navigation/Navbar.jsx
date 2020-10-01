@@ -1,5 +1,4 @@
 import React from "react";
-import Grid from "@material-ui/core/Grid";
 import ContentWrapper from "../ContentWrapper/ContentWrapper";
 import Typography from "@material-ui/core/Typography";
 import NavContact from "./components/NavContact";

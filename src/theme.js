@@ -67,21 +67,21 @@ export default createMuiTheme({
           fontWeight: 700,
         },
       },
-      // Header for Service Locations; text alignment is messed up
+      // Footer One
       h5: {
-        fontSize: 58,
+        fontSize: 48,
         fontWeight: 500,
         fontFamily: "Georgia",
         marginBottom: 30,
         color: "#0058A0",
-        maxHeight: 128,
+        textAlign: "center",
         "@media (max-width:800px)": {
           fontSize: 24,
           fontWeight: 700,
           marginBottom: 15,
         },
       },
-      // Navigation Contact
+      // Footer Two
       h6: {
         fontSize: 16,
       },
@@ -90,6 +90,17 @@ export default createMuiTheme({
         fontSize: 18,
         fontWeight: 400,
         marginBottom: 20,
+        "@media (max-width:760px)": {
+          fontSize: 16,
+          marginBottom: 15,
+        },
+      },
+      // Footer Two
+      subtitle1: {
+        fontSize: 18,
+        paddingTop: 20,
+        paddingBottom: 20,
+        color: "#fff",
         "@media (max-width:760px)": {
           fontSize: 16,
           marginBottom: 15,
@@ -115,6 +126,9 @@ export default createMuiTheme({
     MuiPaper: {
       outlined: {
         border: "none",
+      },
+      rounded: {
+        borderRadius: "none",
       },
     },
     MuiCardContent: {
