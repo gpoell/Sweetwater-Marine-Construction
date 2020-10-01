@@ -33,16 +33,17 @@ export default createMuiTheme({
           fontWeight: 700,
         },
       },
-      // Navigation
+      // Navigation Header
       h2: {
         fontSize: 28,
         fontWeight: 700,
         fontFamily: "Georgia",
         color: "#00004d",
+        textAlign: "center",
         "@media (max-width:760px)": {
-          fontSize: 34,
+          fontSize: 24,
+          marginTop: 15,
           marginBottom: 15,
-          textAlign: "center",
         },
       },
       // Section Header
@@ -81,7 +82,7 @@ export default createMuiTheme({
           marginBottom: 15,
         },
       },
-      // Footer Two
+      // Button Labels
       h6: {
         fontSize: 16,
       },

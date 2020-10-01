@@ -1,5 +1,5 @@
 import React from "react";
-import Home from "./containers/Home/Home";
+import Home from "./content/Home";
 import { ThemeProvider } from "@material-ui/core/styles";
 import theme from "./theme";
 
