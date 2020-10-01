@@ -4,7 +4,7 @@ import LandingImage from "../../components/Landing/LandingImage";
 
 const Landing = (props) => {
   return (
-    <Grid style={{ position: "relative" }}>
+    <Grid container item xs={12} style={{ position: "relative" }}>
       <LandingImage mobile={props.mobile} />
       {/* <ContentWrapper style={{ position: "absolute", top: "45%" }}>
         <LandingPage mobile={props.mobile} />
