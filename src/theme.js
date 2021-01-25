@@ -40,6 +40,7 @@ export default createMuiTheme({
         fontFamily: "Georgia",
         color: "#00004d",
         textAlign: "center",
+        marginBottom: 20,
         "@media (max-width:760px)": {
           fontSize: 24,
           marginTop: 15,
