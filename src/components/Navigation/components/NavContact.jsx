@@ -12,7 +12,7 @@ const NavContact = (props) => {
         container
         item
         md={7}
-        lg={8}
+        lg={9}
         alignItems='center'
         justify='flex-end'
       >
@@ -26,7 +26,7 @@ const NavContact = (props) => {
           <Typography variant='h6'>ThomasWellensJr@gmail.com</Typography>
         </Button>
       </Grid>
-      <Grid container item md={5} lg={4} alignItems='center' justify='center'>
+      <Grid container item md={5} lg={3} alignItems='center' justify='center'>
         <Button
           variant='contained'
           color='primary'

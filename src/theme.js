@@ -35,7 +35,7 @@ export default createMuiTheme({
       },
       // Navigation Header
       h2: {
-        fontSize: 28,
+        fontSize: 18,
         fontWeight: 700,
         fontFamily: "Georgia",
         color: "#00004d",
@@ -85,7 +85,7 @@ export default createMuiTheme({
       },
       // Button Labels
       h6: {
-        fontSize: 16,
+        fontSize: 12,
       },
       // Section Body Content
       body1: {

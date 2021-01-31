@@ -1,7 +1,6 @@
 export const styles = {
   navigation: {
     backgroundColor: "#fff",
-    paddingTop: 20,
   },
   services: {
     backgroundColor: "#fff",

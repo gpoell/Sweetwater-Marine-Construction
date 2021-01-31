@@ -11,7 +11,7 @@ export const styles = {
     marginRight: 10,
   },
   container: {
-    marginTop: 10,
+    marginTop: 30,
     marginBottom: 10,
   },
   image: {
