@@ -16,7 +16,6 @@ const Navbar = (props) => {
         lg={5}
         xl={4}
         style={styles.container}
-        justify='center'
       >
         <NavLogo mobile={props.mobile} />
       </Grid>
