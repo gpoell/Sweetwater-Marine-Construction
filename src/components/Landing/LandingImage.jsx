@@ -1,14 +1,13 @@
 import React from "react";
-import landing from "../../images/templates/lake1.1.jpg";
+import Grid from "@material-ui/core/Grid";
+import image from "../../images/logo/SWMC_round_navy.png"
 import { styles } from "./styles";
 
-const LandingImage = (props) => {
+const LandingImage = () => {
   return (
-    <img
-      src={props.mobile ? landing : landing}
-      alt='Charlotte North Carolina Dock Repairs'
-      style={styles.photo}
-    />
+    <Grid container item xs={6}>
+      <img src={image} style={styles.image} alt='Sweetwater Marine Construction'/>
+    </Grid>
   );
 };
 

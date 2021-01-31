@@ -5,4 +5,7 @@ export const styles = {
   photo: {
     width: "100%",
   },
+  image: {
+    width: "100%",
+  }
 };
