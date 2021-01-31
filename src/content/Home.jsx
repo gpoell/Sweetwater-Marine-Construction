@@ -17,8 +17,8 @@ const Home = () => {
 
   return (
     <Grid container>
-      <Navigation />
-      <Landing />
+      <Navigation mobile={mobile} />
+      {/* <Landing /> */}
       <Services mobile={mobile} />
       <Footer />
     </Grid>

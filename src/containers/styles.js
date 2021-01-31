@@ -1,9 +1,6 @@
 export const styles = {
   navigation: {
     backgroundColor: "#fff",
-    borderBottomStyle: "solid",
-    borderWidth: "10px",
-    borderColor: "#00004d",
     paddingTop: 20,
   },
   services: {

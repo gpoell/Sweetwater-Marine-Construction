@@ -3,10 +3,10 @@ import ContentWrapper from "../../components/ContentWrapper/ContentWrapper";
 import NavBar from "../../components/Navigation/Navbar";
 import { styles } from "../styles";
 
-const Navigation = () => {
+const Navigation = props => {
   return (
     <ContentWrapper style={styles.navigation}>
-      <NavBar />
+      <NavBar mobile={props.mobile} />
     </ContentWrapper>
   );
 };
