@@ -5,7 +5,7 @@ import { styles } from "./styles";
 
 const LandingImage = () => {
   return (
-    <Grid container item xs={6}>
+    <Grid container item lg={3}>
       <img src={image} style={styles.image} alt='Sweetwater Marine Construction'/>
     </Grid>
   );

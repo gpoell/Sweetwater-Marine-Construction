@@ -5,10 +5,18 @@ import LandingContent from "../../components/Landing/LandingContent";
 
 const Landing = (props) => {
   return (
-    <ContentWrapper style={{marginTop: 30, marginBottom: 30}}>
-      <LandingContent />
-      <LandingImage />
-    </ContentWrapper>
+    <>
+      {props.mobile ?
+        <ContentWrapper style={{ paddingTop: 20, paddingBottom: 20 }}>
+          <LandingContent />
+        </ContentWrapper>
+        :
+        <ContentWrapper style={{ paddingTop: 60, paddingBottom: 60 }}>
+          <LandingContent />
+          <LandingImage />
+        </ContentWrapper>
+      }
+    </>
   );
 };
 
