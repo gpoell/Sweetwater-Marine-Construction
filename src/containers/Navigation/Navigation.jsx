@@ -6,7 +6,7 @@ import { styles } from "../styles";
 const Navigation = props => {
   return (
     <ContentWrapper style={styles.navigation}>
-      <NavBar mobile={props.mobile} />
+      <NavBar mobile={props.mobile} mobileSpec={props.mobileSpec} />
     </ContentWrapper>
   );
 };

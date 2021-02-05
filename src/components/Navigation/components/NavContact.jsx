@@ -8,34 +8,27 @@ import Button from "@material-ui/core/Button";
 const NavContact = (props) => {
   return (
     <>
-      <Grid
-        container
-        item
-        md={7}
-        lg={9}
-        alignItems='center'
-        justify='flex-end'
-      >
+      <Grid container item xs={2} md={8} lg={9} alignItems='center' justify='flex-end'>
         <Button
           variant='text'
           color='secondary'
           href='mailto:thomaswellensjr@gmail.com'
-          size='large'
+          size={props.mobile ? 'small' : 'large'}
           startIcon={<EmailIcon />}
         >
-          <Typography variant='h6'>ThomasWellensJr@gmail.com</Typography>
+          {!props.mobile && <Typography variant='h6'>ThomasWellensJr@gmail.com</Typography>}
         </Button>
       </Grid>
-      <Grid container item md={5} lg={3} alignItems='center' justify='center'>
+      <Grid container item xs={1} sm={2} md={4} lg={3} alignItems='center' justify='center'>
         <Button
-          variant='contained'
+          variant={props.mobile ? 'text' : 'contained'}
           color='primary'
           href='tel:7047269245'
-          size='large'
+          size={props.mobile ? 'small' : 'large'}
           disableElevation
           startIcon={<PhoneIcon />}
         >
-          <Typography variant='h6'>(704) 726-9245</Typography>
+          {!props.mobile && <Typography variant='h6'>(704) 726-9245</Typography>}
         </Button>
       </Grid>
     </>

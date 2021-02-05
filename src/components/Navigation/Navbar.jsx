@@ -7,23 +7,14 @@ import { styles } from "./styles";
 const Navbar = (props) => {
   return (
     <>
-      <Grid
-        container
-        item
-        xs={12}
-        sm={12}
-        md={4}
-        lg={5}
-        xl={4}
-        style={styles.container}
-      >
-        <NavLogo mobile={props.mobile} />
-      </Grid>
-      {!props.mobile && 
-        <Grid container item md={8} lg={7} xl={8} justify='flex-end'>
-          <NavContact mobile={props.mobile} />
-        </Grid>
+      {props.mobileSpec > 750 && 
+        <Grid container item sm={4} md={4} lg={5} xl={4} style={styles.container}>
+          <NavLogo />
+        </Grid>    
       }
+      <Grid container item xs={10} sm ={8} md={8} lg={7} xl={8} justify='flex-end' style={styles.mobile}>
+        <NavContact mobile={props.mobile}/>
+      </Grid>
     </>
   );
 };
