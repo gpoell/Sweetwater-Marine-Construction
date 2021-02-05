@@ -1,12 +1,16 @@
 import React from "react";
 import Grid from "@material-ui/core/Grid";
-import image from "../../images/logo/SWMC_round_navy.png"
+import landingImage from "../../images/background/6784.png";
 import { styles } from "./styles";
 
-const LandingImage = () => {
+const LandingImage = (props) => {
   return (
-    <Grid container item lg={3}>
-      <img src={image} style={styles.image} alt='Sweetwater Marine Construction'/>
+    <Grid container>
+      <img
+        src={landingImage}
+        alt=''
+        style={styles.image}
+      />
     </Grid>
   );
 };
