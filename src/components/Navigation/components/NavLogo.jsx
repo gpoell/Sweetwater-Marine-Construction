@@ -1,7 +1,7 @@
 import React from "react";
 import Grid from "@material-ui/core/Grid";
 import Typography from "@material-ui/core/Typography";
-import image from "../../../images/logo/SWMC_round_navy_mobile.png";
+import logo from "../../../images/logo/SWMC_round_navy_mobile.png";
 
 const NavLogo = (props) => {
   return (
@@ -10,11 +10,10 @@ const NavLogo = (props) => {
         <Typography variant='h2'>SWEETWATER MARINE CONSTRUCTION</Typography>
       :
         <Grid container item xs={12} justify='center'>
-          <img src={image} alt='Sweetwater Marine Construction'/>
+          <img src={logo} alt='Sweetwater Marine Construction'/>
         </Grid>
       }
-    </>
-    
+    </>    
   );
 };
 

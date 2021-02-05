@@ -8,23 +8,10 @@ const Landing = (props) => {
   return (
     <Grid style={{ position: "relative" }}>
       <LandingImage mobile={props.mobile} />
-      <ContentWrapper style={{ position: "absolute", top: "40%" }}>
+      <ContentWrapper style={{ position: "absolute", top: "20%" }}>
         <LandingContent mobile={props.mobile} />
       </ContentWrapper>
     </Grid>
-
-    // <>
-    //   {props.mobile ?
-    //     <ContentWrapper style={styles.mobile}>
-    //       <LandingContent />
-    //     </ContentWrapper>
-    //     :
-    //     <ContentWrapper style={styles.desktop}>
-    //       <LandingContent />
-    //       <LandingImage />
-    //     </ContentWrapper>
-    //   }
-    // </>
   );
 };
 
