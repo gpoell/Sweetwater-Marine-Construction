@@ -7,17 +7,19 @@ import Footer from "../containers/Footer/Footer";
 
 const Home = () => {
   const [mobile, setMobile] = useState(false);
+  const [mobileSpec, setMobileSpec] = useState(null);
 
   useEffect(() => {
-    let browserWidth = window.innerWidth;
-    if (browserWidth < 960) {
+    const browserWidth = window.innerWidth;
+    setMobileSpec(browserWidth);
+    if (browserWidth < 800) {
       setMobile(true);
     }
   }, []);
 
   return (
     <Grid container>
-      <Navigation mobile={mobile} />
+      <Navigation mobile={mobile} mobileSpec={mobileSpec} />
       <Landing mobile={mobile} />
       <Services mobile={mobile} />
       <Footer />
