@@ -41,10 +41,9 @@ export default createMuiTheme({
         color: "#00004d",
         textAlign: "center",
         marginBottom: 20,
-        "@media (max-width:760px)": {
-          fontSize: 24,
-          marginTop: 15,
-          marginBottom: 15,
+        // iPad Pro
+        "@media (max-width:1040px)": {
+          fontSize: 12,
         },
       },
       // Section Header
@@ -55,7 +54,7 @@ export default createMuiTheme({
         fontFamily: "Georgia",
         marginBottom: 30,
         "@media (max-width:760px)": {
-          fontSize: 34,
+          fontSize: 20,
           fontWeight: 400,
           marginBottom: 0,
         },
@@ -86,6 +85,11 @@ export default createMuiTheme({
       // Button Labels
       h6: {
         fontSize: 12,
+        "@media (max-width:800px)": {
+          fontSize: 10,
+          fontWeight: 700,
+          marginBottom: 15,
+        },
       },
       // Section Body Content
       body1: {
