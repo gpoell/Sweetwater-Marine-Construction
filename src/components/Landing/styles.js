@@ -1,6 +1,10 @@
 export const styles = {
-  image: {
-    maxHeight: 600,
+  backgroundImg: {
+    maxHeight: 700,
     width: "100%",
+  },
+  logo: {
+    maxHeight: 700,
+    width: "100%"
   }
 };
