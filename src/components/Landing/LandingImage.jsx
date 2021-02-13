@@ -1,11 +1,12 @@
 import React from "react";
-import landingImage from "../../images/background/blue_wave.png"
+import desktop from "../../images/background/blue_wave_desktop.png"
+import mobile from "../../images/background/blue_wave_mobile.png"
 import { styles } from "./styles";
 
-const LandingImage = () => {
+const LandingImage = (props) => {
   return (
     <img
-      src={landingImage}
+      src={props.mobile ? mobile : desktop}
       alt='Sweetwater Marine Construction'
       style={styles.backgroundImg}
     />

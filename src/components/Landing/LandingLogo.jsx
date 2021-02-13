@@ -5,7 +5,7 @@ import { styles } from "./styles";
 
 const LandingLogo = () => {
   return (
-    <Grid container item xs={9} md={7} lg={5} xl={4}>
+    <Grid container item xs={8} sm={9} md={5} lg={3} xl={2}>
       <img src={logo} alt='Sweetwater Marine Construction' style={styles.logo}/>
     </Grid>
   );
