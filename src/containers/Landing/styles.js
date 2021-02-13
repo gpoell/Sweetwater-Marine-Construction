@@ -11,7 +11,8 @@ export const styles = {
     paddingBottom: 60,
   },
   mobile: {
-    paddingTop: 20,
-    paddingBottom: 20
+    paddingTop: 60,
+    paddingBottom: 60,
+    backgroundColor: '#189AB4'
   },
 }

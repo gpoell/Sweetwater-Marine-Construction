@@ -6,5 +6,12 @@ export const styles = {
   logo: {
     maxHeight: 700,
     width: "100%"
+  },
+  button: {
+    paddingTop: 15,
+    paddingBottom: 15,
+  },
+  buttonContainer: {
+    marginTop: 15,
   }
 };

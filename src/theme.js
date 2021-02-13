@@ -29,8 +29,10 @@ export default createMuiTheme({
         fontFamily: "Georgia",
         textAlign: "center",
         "@media (max-width:760px)": {
-          fontSize: 26,
-          fontWeight: 700,
+          fontSize: 18,
+          fontWeight: 400,
+          lineHeight: 1.555556,
+          color: "#fff"
         },
       },
       // Navigation Header
@@ -86,9 +88,7 @@ export default createMuiTheme({
       h6: {
         fontSize: 12,
         "@media (max-width:800px)": {
-          fontSize: 10,
-          fontWeight: 700,
-          marginBottom: 15,
+          fontSize: 16,
         },
       },
       // Section Body Content
@@ -128,6 +128,9 @@ export default createMuiTheme({
         borderRadius: 0,
         textTransform: "none",
       },
+      label: {
+        textAlign: "center"
+      }
     },
     MuiPaper: {
       outlined: {
