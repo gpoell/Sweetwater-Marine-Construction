@@ -12,7 +12,7 @@ const Home = () => {
   useEffect(() => {
     const browserWidth = window.innerWidth;
     setMobileSpec(browserWidth);
-    if (browserWidth < 800) {
+    if (browserWidth < 760) {
       setMobile(true);
     }
   }, []);
