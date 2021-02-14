@@ -4,7 +4,7 @@ import LandingDesktop from "./LandingDesktop";
 
 const Landing = props => {
   const { mobile } = props;
-  return mobile ? <LandingMobile mobile={mobile} /> : null
+  return mobile ? <LandingMobile mobile={mobile} /> : <LandingDesktop mobile={mobile} />
 }
 
 export default Landing;

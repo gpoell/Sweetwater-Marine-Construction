@@ -24,7 +24,7 @@ export default createMuiTheme({
     MuiTypography: {
       // Landing Page
       h1: {
-        fontSize: 34,
+        fontSize: 36,
         fontWeight: 400,
         fontFamily: "Georgia",
         textAlign: "center",

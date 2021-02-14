@@ -4,7 +4,7 @@ export const styles = {
   },
   absolute: {
     position: "absolute",
-    top: "0%"
+    top: "20%"
   },
   desktop: {
     paddingTop: 60,
