@@ -1,10 +1,9 @@
 import React from "react";
-import Typography from "@material-ui/core/Typography";
+import logo from "../../../images/logo/SWMC_round_navy.png";
+import { styles } from "../styles";
 
 const NavLogo = () => {
-  return (
-    <Typography variant='h2'>SWEETWATER MARINE CONSTRUCTION</Typography>
-  );
+  return <img src={logo} alt='Sweetwater Marine Construction' style={styles.logo}/>;
 };
 
 export default NavLogo;

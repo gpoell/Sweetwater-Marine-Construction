@@ -1,19 +1,20 @@
 import React from "react";
 import Grid from "@material-ui/core/Grid";
+import Typography from "@material-ui/core/Typography";
 import NavLogo from "./components/NavLogo";
 import NavContact from "./components/NavContact";
-import { styles } from "./styles";
 
-const Navbar = (props) => {
+const Navbar = () => {
   return (
     <>
-      {props.mobileSpec > 750 && 
-        <Grid container item sm={4} md={4} lg={5} xl={4} style={styles.container}>
-          <NavLogo />
-        </Grid>    
-      }
-      <Grid container item xs={10} sm ={8} md={8} lg={7} xl={8} justify='flex-end' style={styles.mobile}>
-        <NavContact mobile={props.mobile}/>
+      <Grid container item sm={2} md={1} >
+        <NavLogo />
+      </Grid>
+      <Grid container item sm={4} md={5} alignItems='center'>
+        <Typography variant='h2'>SWEETWATER MARINE CONSTRUCTION</Typography>
+      </Grid>
+      <Grid container item sm ={6} md={6} alignItems='center'>
+        <NavContact />
       </Grid>
     </>
   );
