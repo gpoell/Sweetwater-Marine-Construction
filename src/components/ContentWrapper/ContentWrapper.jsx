@@ -4,7 +4,7 @@ import Grid from "@material-ui/core/Grid";
 const ContentWrapper = (props) => {
   return (
     <Grid container justify='center' style={props.style}>
-      <Grid container item xs={12} sm={10} justify='center'>
+      <Grid container item xs={12} justify='center'>
         {props.children}
       </Grid>
     </Grid>
