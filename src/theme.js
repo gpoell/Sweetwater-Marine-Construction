@@ -56,7 +56,7 @@ export default createMuiTheme({
         },
         // Mobile
         "@media (max-width:760px)": {
-          fontSize: 12,
+          fontSize: 10,
           marginBottom: 0,
           letterSpacing: 1,
         },
