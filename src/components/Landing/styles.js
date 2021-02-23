@@ -4,7 +4,7 @@ export const styles = {
     width: "100%",
   },
   logo: {
-    marginTop: 20,
+    marginTop: 40,
     maxHeight: 700,
     width: "100%"
   },
