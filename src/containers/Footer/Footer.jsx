@@ -7,9 +7,6 @@ import { styles } from "./styles";
 const Footer = () => {
   return (
     <>
-      <ContentWrapper style={styles.footerOne}>
-        <FooterOne />
-      </ContentWrapper>
       <ContentWrapper style={styles.footerTwo}>
         <FooterTwo />
       </ContentWrapper>
