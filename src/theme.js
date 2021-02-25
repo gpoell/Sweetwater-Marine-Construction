@@ -23,16 +23,16 @@ export default createMuiTheme({
     "@media (min-width:400px)": {
       fontSize: 8,
     },
-    fontFamily: ["Verdana"],
+    fontFamily: 'Noto Sans JP',
   },
   overrides: {
     MuiTypography: {
       // Landing Page
       h1: {
-        fontSize: 36,
-        fontWeight: 400,
-        fontFamily: "Georgia",
+        fontSize: 52,
+        fontWeight: 500,
         textAlign: "center",
+        fontFamily: "Noto Sans JP",
         "@media (max-width:760px)": {
           fontSize: 18,
           fontWeight: 400,
@@ -44,26 +44,25 @@ export default createMuiTheme({
       h2: {
         fontSize: 18,
         fontWeight: 700,
-        fontFamily: "Georgia",
+        fontFamily: "Noto Sans JP",
         color: "#00004d",
         textAlign: "center",
         paddingLeft: 10,
+        letterSpacing: 1,
         // iPad Pro
         "@media (max-width:1040px)": {
           fontSize: 12,
-          letterSpacing: 1.5,
           paddingLeft: 10
         },
         // Mobile
         "@media (max-width:760px)": {
-          fontSize: 9,
+          fontSize: 10,
           marginTop: 5,
-          letterSpacing: 1,
         },
       },
-      // Section Header
+      // Landing Page
       h3: {
-        fontSize: 52,
+        fontSize: 36,
         color: "black",
         fontWeight: 400,
         fontFamily: "Georgia",

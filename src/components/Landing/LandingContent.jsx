@@ -12,7 +12,7 @@ const LandingContent = (props) => {
         <Typography variant='h1'>Dock Repair and Barge Services</Typography>
       </Grid>
       <Grid container item xs={10} justify='center'>
-        <Typography variant='h1'>Servicing Charlotte Area</Typography>
+        <Typography variant='h3'>Servicing Charlotte Area</Typography>
       </Grid>
       <Grid container item xs={10} justify='center' style={styles.buttonContainer}>
         <Button
