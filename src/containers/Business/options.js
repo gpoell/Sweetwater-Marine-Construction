@@ -10,7 +10,7 @@ export const options = [
     title: "Piles",
     image: barge2,
     description:
-      "Piles are critical for a secure dock foundation. We drive piles deep into the soil to provide the strongest support for your dock.",
+      "Piles are essential for a secure dock foundation. We drive piles deep into the soil to provide the strongest support for your dock.",
   },
   {
     title: "Custom Docks",
@@ -22,7 +22,7 @@ export const options = [
     title: "Shore Management",
     image: seawall2,
     description:
-      "We provide an array of solutions for your shoreline to protect it from erosion and flooding.",
+      "Shore management is critical for protecting your shoreline from erosion and flooding.",
   },
   {
     title: "Dock Repairs",
@@ -34,7 +34,7 @@ export const options = [
     title: "Platform Docks",
     image: barge3,
     description:
-      "Platform docks are great for fishing, swimming, and lounging.",
+      "Platform docks provide extra space for activities such as swimming, fishing, and lounging.",
   },
   {
     title: "Basic Docks",
