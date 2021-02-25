@@ -31,10 +31,10 @@ export const options = [
       "We provide an array of services to help you maintaing a strong dock foundation.",
   },
   {
-    title: "Barge Services",
+    title: "Platform Docks",
     image: barge3,
     description:
-      "Our barge services are available for whatever reason you may need it.",
+      "Platform docks are great for fishing, swimming, and lounging.",
   },
   {
     title: "Basic Docks",
