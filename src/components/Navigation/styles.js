@@ -1,5 +1,6 @@
 export const styles = {
   logo: {
-    width: "100%",
+    width: 75,
+    maxHeight: 75
   }
 };

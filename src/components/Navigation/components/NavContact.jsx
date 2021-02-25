@@ -8,7 +8,7 @@ import Button from "@material-ui/core/Button";
 const NavContact = (props) => {
   return (
     <>
-      <Grid container item sm={4} md={6} lg={8} justify='flex-end'>
+      <Grid container item sm={2} md={6} lg={8} justify='flex-end'>
         <Button
           variant='text'
           color='secondary'
@@ -17,7 +17,7 @@ const NavContact = (props) => {
           <EmailIcon fontSize='small'/>
         </Button>
       </Grid>
-      <Grid container item sm={8} md={6} lg={4} justify='flex-end'>
+      <Grid container item sm={10} md={6} lg={4} justify='flex-end'>
         <Button
           variant='contained'
           color='primary'

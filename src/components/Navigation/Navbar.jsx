@@ -7,13 +7,11 @@ import NavContact from "./components/NavContact";
 const Navbar = () => {
   return (
     <>
-      <Grid container item sm={2} md={1} >
+      <Grid container item sm={8} md={6} alignItems='center'>
         <NavLogo />
-      </Grid>
-      <Grid container item sm={4} md={5} alignItems='center'>
         <Typography variant='h2'>SWEETWATER MARINE CONSTRUCTION</Typography>
       </Grid>
-      <Grid container item sm ={6} md={6} alignItems='center'>
+      <Grid container item sm={4} md={6} alignItems='center'>
         <NavContact />
       </Grid>
     </>

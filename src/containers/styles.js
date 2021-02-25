@@ -7,8 +7,8 @@ export const styles = {
   },
   navigation: {
     backgroundColor: "#fff",
-    paddingTop: 20,
-    paddingBottom: 20,
+    paddingTop: 15,
+    paddingBottom: 15,
     borderBottomStyle: "solid",
     borderWidth: "2px",
     borderColor: "#00004d",

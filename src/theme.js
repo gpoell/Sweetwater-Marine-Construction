@@ -57,7 +57,7 @@ export default createMuiTheme({
         // Mobile
         "@media (max-width:760px)": {
           fontSize: 9,
-          marginBottom: 0,
+          marginTop: 5,
           letterSpacing: 1,
         },
       },
@@ -103,13 +103,15 @@ export default createMuiTheme({
       h6: {
         fontSize: 12,
         fontWeight: 700,
-        "@media (max-width:760px)": {
-          fontSize: 16,
+        letterSpacing: 1,
+        // iPad
+        "@media (max-width:980px)": {
+          fontSize: 10,
+          letterSpacing: 1,
         },
-        // iPad Pro
-        "@media (max-width:1040px)": {
-          fontSize: 12,
-          letterSpacing: 1.5,
+        // Mobile
+        "@media (max-width:760px)": {
+          fontSize: 14,
         },
       },
       // Service Body Content
