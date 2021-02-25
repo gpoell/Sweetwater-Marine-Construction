@@ -7,8 +7,15 @@ export const styles = {
     height: 250,
     width: "100%",
     boxShadow: "0 0 1.5rem rgba(105, 105, 105, .5)",
+    cursor: 'pointer'
   },
   container: {
     padding: 0,
   },
+  modal: {
+    display: "flex",
+    justifyContent: "center",
+    alignItems: "center",
+    maxHeight: 800
+  }
 };

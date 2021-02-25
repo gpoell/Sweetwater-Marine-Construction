@@ -79,8 +79,10 @@ export default createMuiTheme({
         fontSize: 30,
         fontColor: "#00004d",
         marginBottom: 10,
-        "@media (max-width:800px)": {
-          fontSize: 32,
+        // Mobile
+        "@media (max-width:760px)": {
+          fontSize: 26,
+          fontWeight: 500
         },
       },
       // Footer One
@@ -110,14 +112,13 @@ export default createMuiTheme({
           letterSpacing: 1.5,
         },
       },
-      // Section Body Content
+      // Service Body Content
       body1: {
         fontSize: 18,
         fontWeight: 400,
         marginBottom: 20,
         "@media (max-width:760px)": {
-          fontSize: 16,
-          marginBottom: 15,
+          fontSize: 14,
         },
       },
       // Footer Two

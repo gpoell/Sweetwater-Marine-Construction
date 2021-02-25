@@ -15,8 +15,8 @@ export const styles = {
   },
   services: {
     backgroundColor: "#fff",
-    paddingTop: 60,
-    paddingBottom: 60,
+    paddingTop: 30,
+    paddingBottom: 30,
   },
   credentials: {
     paddingTop: 60,
