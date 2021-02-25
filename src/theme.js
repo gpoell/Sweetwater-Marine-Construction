@@ -29,14 +29,19 @@ export default createMuiTheme({
     MuiTypography: {
       // Landing Page
       h1: {
-        fontSize: 52,
-        fontWeight: 500,
+        fontSize: 72,
         textAlign: "center",
         fontFamily: "Noto Sans JP",
+        lineHeight: 1.555556,
+        "@media (max-width:1040px)": {
+          fontSize: 46,
+        },
+        "@media (max-width:900px)": {
+          fontSize: 34,
+          letterSpacing: 1.5,
+        },
         "@media (max-width:760px)": {
           fontSize: 18,
-          fontWeight: 400,
-          lineHeight: 1.555556,
           color: "#fff"
         },
       },
@@ -62,15 +67,18 @@ export default createMuiTheme({
       },
       // Landing Page
       h3: {
-        fontSize: 36,
-        color: "black",
-        fontWeight: 400,
-        fontFamily: "Georgia",
-        marginBottom: 30,
+        fontSize: 32,
+        letterSpacing: 1.5,
+        lineHeight: 1.555556,
+        "@media (max-width:1040px)": {
+          fontSize: 18,
+        },
+        "@media (max-width:900px)": {
+          fontSize: 14,
+        },
         "@media (max-width:760px)": {
-          fontSize: 20,
-          fontWeight: 400,
-          marginBottom: 0,
+          fontSize: 8,
+          color: "#fff",
         },
       },
       // Service Headers/Titles
