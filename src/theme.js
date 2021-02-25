@@ -125,11 +125,21 @@ export default createMuiTheme({
       subtitle1: {
         fontSize: 18,
         paddingTop: 20,
+        color: "#fff",
+        textAlign: "center",
+        "@media (max-width:760px)": {
+          fontSize: 9,
+          paddingTop: 20,
+        },
+      },
+      subtitle2: {
+        fontSize: 12,
         paddingBottom: 20,
         color: "#fff",
         textAlign: "center",
         "@media (max-width:760px)": {
-          fontSize: 12,
+          fontSize: 8,
+          paddingBottom: 20,  
         },
       },
     },

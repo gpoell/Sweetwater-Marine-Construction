@@ -5,6 +5,6 @@ export const styles = {
     paddingBottom: 60,
   },
   footerTwo: {
-    backgroundColor: "#00004d",
+    backgroundColor: "#1c4c84",
   },
 };
