@@ -23,7 +23,7 @@ const ServiceOptions = (props) => {
   return (
     <>
       {props.options.map((option, index) => (
-        <Grid container item xs={11} sm={6} md={6} lg={4} style={styles.container} key={index}>
+        <Grid container item xs={12} sm={6} lg={4} style={styles.container} key={index}>
           <Card style={styles.card} variant='outlined'>
             <CardMedia
               className='card'

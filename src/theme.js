@@ -54,12 +54,9 @@ export default createMuiTheme({
         textAlign: "center",
         paddingLeft: 10,
         letterSpacing: 1,
-        // iPad Pro
         "@media (max-width:1040px)": {
           fontSize: 12,
-          paddingLeft: 10
         },
-        // Mobile
         "@media (max-width:760px)": {
           fontSize: 10,
           marginTop: 5,
@@ -83,13 +80,18 @@ export default createMuiTheme({
       },
       // Service Headers/Titles
       h4: {
-        fontSize: 30,
+        fontSize: 32,
         fontColor: "#00004d",
         marginBottom: 10,
-        // Mobile
+        "@media (max-width:1040px)": {
+          fontSize: 32,
+        },
+        "@media (max-width:900px)": {
+          fontSize: 30,
+        },
         "@media (max-width:760px)": {
-          fontSize: 26,
-          fontWeight: 500
+          fontSize: 30,
+          textAlign: "center",
         },
       },
       // Footer One
@@ -124,10 +126,15 @@ export default createMuiTheme({
       // Service Body Content
       body1: {
         fontSize: 18,
-        fontWeight: 400,
-        marginBottom: 20,
+        "@media (max-width:1040px)": {
+          fontSize: 18,
+        },
+        "@media (max-width:900px)": {
+          fontSize: 16,
+        },
         "@media (max-width:760px)": {
           fontSize: 14,
+          textAlign: "center",
         },
       },
       // Footer Two
