@@ -4,7 +4,7 @@ import Typography from "@material-ui/core/Typography";
 
 const FooterTwo = () => {
   return (
-    <Grid container item xs={12} lg={8} justify='center'>
+    <Grid container item xs={12} md={8} lg={6} justify='center'>
       <Typography variant='subtitle1'>
         Sweetwater Marine Construction &#169; 2019 | Charlotte, North Carolina
       </Typography>
