@@ -1,6 +1,6 @@
 export const styles = {
   backgroundImg: {
-    height: 800,
+    maxHeight: 800,
     width: "100%",
   },
   logo: {
