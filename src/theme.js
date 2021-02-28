@@ -29,7 +29,7 @@ export default createMuiTheme({
     MuiTypography: {
       // Landing Page
       h1: {
-        fontSize: 72,
+        fontSize: 62,
         textAlign: "center",
         fontFamily: "Noto Sans JP",
         lineHeight: 1.555556,
@@ -64,7 +64,7 @@ export default createMuiTheme({
       },
       // Landing Page
       h3: {
-        fontSize: 32,
+        fontSize: 22,
         letterSpacing: 1.5,
         lineHeight: 1.555556,
         "@media (max-width:1040px)": {
