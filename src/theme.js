@@ -15,6 +15,7 @@ export default createMuiTheme({
     aqua_blue: "#189AB4",
     maya_blue: "#66D3FA",
     water_blue: "#D5F3FE",
+    bright_blue: "#4cbcfb",
     green: "#79F2C0",
     gold: "#FFE380"
   },

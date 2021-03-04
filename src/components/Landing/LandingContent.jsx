@@ -17,7 +17,7 @@ const LandingContent = (props) => {
       <Grid container item xs={10} justify='center' style={styles.buttonContainer}>
         <Button
             variant='contained'
-            color='secondary'
+            color='primary'
             href='tel:7047269245'
             size='large'
             style={styles.button}
