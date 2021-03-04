@@ -5,7 +5,8 @@ export const styles = {
   },
   logo: {
     marginTop: 40,
-    width: "100%"
+    width: "100%",
+    height: "85%"
   },
   button: {
     paddingTop: 15,
