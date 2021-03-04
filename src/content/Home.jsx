@@ -9,7 +9,7 @@ const Home = () => {
   const [mobile, setMobile] = useState(false);
 
   useEffect(() => {
-    const browserWidth = window.innerWidth;
+    let browserWidth = window.innerWidth;
     if (browserWidth < 760) {
       setMobile(true);
     }
