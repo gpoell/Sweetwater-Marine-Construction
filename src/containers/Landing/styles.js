@@ -13,6 +13,6 @@ export const styles = {
   mobile: {
     paddingTop: 30,
     paddingBottom: 30,
-    backgroundColor: '#5493cb'
+    backgroundColor: '#1c4c84'
   },
 }
