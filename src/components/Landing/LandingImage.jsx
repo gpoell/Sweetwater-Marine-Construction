@@ -6,7 +6,7 @@ import { styles } from "./styles";
 
 const LandingImage = (props) => {
   return (
-    <Grid container item xs={12}>
+    <Grid container>
       {props.mobile ?
         <img src={mobile} alt='Sweetwater Marine Construction' style={styles.mobileImg} />
         :

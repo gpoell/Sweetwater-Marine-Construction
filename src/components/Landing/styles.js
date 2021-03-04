@@ -5,7 +5,7 @@ export const styles = {
   },
   mobileImg: {
     width: "100%",
-    maxHeight: 375
+    height: "100%"
   },
   logo: {
     marginTop: 40,
