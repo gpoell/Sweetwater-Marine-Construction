@@ -7,11 +7,11 @@ import { styles } from "./styles";
 const LandingImage = (props) => {
   return (
     <Grid container item xs={12}>
-      <img
-        src={props.mobile ? mobile : desktop}
-        alt='Sweetwater Marine Construction'
-        style={styles.backgroundImg}
-      />
+      {props.mobile ?
+        <img src={mobile} alt='Sweetwater Marine Construction' style={styles.mobileImg} />
+        :
+        <img src={desktop} alt='Sweetwater Marine Construction' style={styles.backgroundImg} />
+      }
     </Grid>
 
   );
