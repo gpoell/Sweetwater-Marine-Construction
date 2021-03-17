@@ -11,8 +11,10 @@ import "./styles.css";
 
 const ServiceOptions = (props) => {
   const [open, setOpen] = useState(false);
+  const [serviceImgs, setServiceImgs] = useState(null);
 
-  const handleOpen = () => {
+  const handleOpen = (images) => {
+    setServiceImgs(images)
     setOpen(true);
   };
 
@@ -24,13 +26,13 @@ const ServiceOptions = (props) => {
     <>
       {props.options.map((option, index) => (
         <Grid container item xs={12} sm={6} lg={4} style={styles.container} key={index}>
-          <Card style={styles.card} variant='outlined'>
+          <Card style={styles.card} variant='outlined' key={index}>
             <CardMedia
               className='card'
               style={styles.media}
               image={option.image}
               title={option.title}
-              onClick={handleOpen}
+              onClick={() => handleOpen(option.carousel)}
             />
             <CardContent>
               <Typography variant='h4'>{option.title}</Typography>
@@ -41,7 +43,7 @@ const ServiceOptions = (props) => {
           </Card>
         </Grid>
       ))}
-      <ServicePhotos open={open} handleClose={handleClose} />
+      <ServicePhotos open={open} handleClose={handleClose} images={serviceImgs}/>
     </>
   );
 };

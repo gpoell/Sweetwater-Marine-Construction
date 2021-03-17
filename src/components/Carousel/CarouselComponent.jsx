@@ -1,24 +1,18 @@
 import React from 'react';
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { Carousel } from 'react-responsive-carousel';
+import { styles } from './styles';
 
-const CarouselComponent = () => {
+const CarouselComponent = React.forwardRef((props, ref) => {
   return (
-    <Carousel>
-      <div>
-          <img src="assets/1.jpeg" />
-          <p className="legend">Legend 1</p>
-      </div>
-      <div>
-          <img src="assets/2.jpeg" />
-          <p className="legend">Legend 2</p>
-      </div>
-      <div>
-          <img src="assets/3.jpeg" />
-          <p className="legend">Legend 3</p>
-      </div>
+    <Carousel dynamicHeight infiniteLoop showThumbs={false}>
+      {props.images.map((image, index) => (
+        <div key={index}>
+          <img src={image.src} alt={image.alt} style={styles.image} />
+        </div>
+      ))}
     </Carousel>
   )
-}
+})
 
 export default CarouselComponent;
