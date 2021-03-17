@@ -1,9 +1,9 @@
-import basic1 from "./basic1.jpeg";
-import basic2 from "./basic2.jpeg";
-import basic3 from "./basic3.jpeg";
-import basic4 from "./basic4.jpeg";
-import basic5 from "./basic5.jpeg";
-import basic6 from "./basic6.jpeg";
+import basic1 from "./basic1.jpg";
+import basic2 from "./basic2.jpg";
+import basic3 from "./basic3.jpg";
+import basic4 from "./basic4.jpg";
+import basic5 from "./basic5.jpg";
+import basic6 from "./basic6.jpg";
 
 const basicDockImgs = [
   {
