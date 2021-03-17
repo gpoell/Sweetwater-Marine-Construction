@@ -1,9 +1,9 @@
-import basicDockImgs from "../../images/serviceoptions/Basic Docks/image";
-import customDockImgs from "../../images/serviceoptions/Custom Docks/image";
-import dockRepairImgs from "../../images/serviceoptions/Dock Repairs/image";
+import basicDockImgs from "../../images/serviceoptions/BasicDocks/image";
+import customDockImgs from "../../images/serviceoptions/CustomDocks/image";
+import dockRepairImgs from "../../images/serviceoptions/DockRepairs/image";
 import pileImgs from "../../images/serviceoptions/Piles/image";
 import platformImgs from "../../images/serviceoptions/Platforms/image";
-import shoreMgtImgs from "../../images/serviceoptions/Shore Management/image";
+import shoreMgtImgs from "../../images/serviceoptions/ShoreManagement/image";
 
 export const options = [
   {
