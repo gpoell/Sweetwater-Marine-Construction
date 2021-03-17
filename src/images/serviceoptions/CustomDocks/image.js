@@ -1,9 +1,9 @@
 import custom1 from "./custom1.jpg";
-import custom2 from "./custom2.jpeg";
-import custom3 from "./custom3.jpeg";
-import custom4 from "./custom4.jpeg";
-import custom5 from "./custom5.jpeg";
-import custom6 from "./custom6.jpeg";
+import custom2 from "./custom2.jpg";
+import custom3 from "./custom3.jpg";
+import custom4 from "./custom4.jpg";
+import custom5 from "./custom5.jpg";
+import custom6 from "./custom6.jpg";
 import custom7 from "./custom7.jpg";
 
 const customDockImgs = [

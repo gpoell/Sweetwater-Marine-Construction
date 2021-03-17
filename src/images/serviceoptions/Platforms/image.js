@@ -1,11 +1,11 @@
-import platform1 from "./platform1.jpeg";
-import platform2 from "./platform2.jpeg";
-import platform3 from "./platform3.jpeg";
-import platform4 from "./platform4.jpeg";
-import platform5 from "./platform5.jpeg";
-import platform6 from "./platform6.jpeg";
-import platform7 from "./platform5.jpeg";
-import platform8 from "./platform6.jpeg";
+import platform1 from "./platform1.jpg";
+import platform2 from "./platform2.jpg";
+import platform3 from "./platform3.jpg";
+import platform4 from "./platform4.jpg";
+import platform5 from "./platform5.jpg";
+import platform6 from "./platform6.jpg";
+import platform7 from "./platform5.jpg";
+import platform8 from "./platform6.jpg";
 
 const platformImgs = [
   {

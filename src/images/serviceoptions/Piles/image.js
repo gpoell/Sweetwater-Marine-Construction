@@ -1,5 +1,5 @@
-import pile1 from "./pile1.jpeg";
-import pile2 from "./pile2.jpeg";
+import pile1 from "./pile1.jpg";
+import pile2 from "./pile2.jpg";
 import pile3 from "./pile3.jpg";
 
 const pileImgs = [
