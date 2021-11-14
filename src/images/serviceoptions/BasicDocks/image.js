@@ -4,6 +4,9 @@ import basic3 from "./basic3.jpg";
 import basic4 from "./basic4.jpg";
 import basic5 from "./basic5.jpg";
 import basic6 from "./basic6.jpg";
+import basic7 from "./basic7.jpg";
+import basic8 from "./basic8.jpg";
+
 
 const basicDockImgs = [
   {
@@ -28,6 +31,14 @@ const basicDockImgs = [
   },
   {
     src: basic6,
+    alt: "Sweetwater Marine Construction Basic Dock"
+  },
+  {
+    src: basic7,
+    alt: "Sweetwater Marine Construction Basic Dock"
+  },
+  {
+    src: basic8,
     alt: "Sweetwater Marine Construction Basic Dock"
   }
 ];
