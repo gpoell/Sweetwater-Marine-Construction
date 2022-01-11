@@ -160,14 +160,20 @@ export default createMuiTheme({
         },
       },
     },
+    MuiList: {
+      padding: {
+        paddingTop: 20,
+        paddingBottom: 20
+      },
+    },
     MuiListItemIcon: {
       root: {
-        paddingRight: 25,
+        paddingRight: 0,
       },
     },
     MuiListItemText: {
       root: {
-        marginTop: 15,
+        marginTop: 0,
       },
     },
     MuiButton: {
