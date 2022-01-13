@@ -109,7 +109,7 @@ export default createMuiTheme({
           marginBottom: 15,
         },
       },
-      // Button Labels
+      // Getting Started/Permit Instruction Headers
       h6: {
         fontSize: 12,
         fontWeight: 700,
@@ -173,6 +173,21 @@ export default createMuiTheme({
           paddingBottom: 20,  
         },
       },
+      // Buttons
+      button: {
+        fontSize: 12,
+        fontWeight: 700,
+        letterSpacing: 1,
+        // iPad
+        "@media (max-width:980px)": {
+          fontSize: 10,
+          letterSpacing: 1,
+        },
+        // Mobile
+        "@media (max-width:760px)": {
+          fontSize: 14,
+        },
+      }
     },
     MuiListItemIcon: {
       root: {
