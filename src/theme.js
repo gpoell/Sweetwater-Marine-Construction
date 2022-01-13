@@ -138,6 +138,20 @@ export default createMuiTheme({
           textAlign: "center",
         },
       },
+      // Getting Started & Dock Design
+      body2: {
+        fontSize: 18,
+        "@media (max-width:1040px)": {
+          fontSize: 18,
+        },
+        "@media (max-width:900px)": {
+          fontSize: 16,
+        },
+        "@media (max-width:760px)": {
+          fontSize: 14,
+          // textAlign: "center",
+        },
+      },
       // Footer Two
       subtitle1: {
         fontSize: 18,
