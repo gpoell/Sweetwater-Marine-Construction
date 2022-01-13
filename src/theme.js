@@ -111,17 +111,17 @@ export default createMuiTheme({
       },
       // Getting Started/Permit Instruction Headers
       h6: {
-        fontSize: 12,
+        fontSize: 20,
         fontWeight: 700,
-        letterSpacing: 1,
-        // iPad
-        "@media (max-width:980px)": {
-          fontSize: 10,
-          letterSpacing: 1,
+        paddingBottom: 10,
+        "@media (max-width:1040px)": {
+          fontSize: 20,
         },
-        // Mobile
+        "@media (max-width:900px)": {
+          fontSize: 20,
+        },
         "@media (max-width:760px)": {
-          fontSize: 14,
+          fontSize: 16,
         },
       },
       // Service Body Content
@@ -149,7 +149,6 @@ export default createMuiTheme({
         },
         "@media (max-width:760px)": {
           fontSize: 14,
-          // textAlign: "center",
         },
       },
       // Footer Two
