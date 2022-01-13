@@ -3,6 +3,7 @@ import Grid from "@material-ui/core/Grid";
 import Navigation from "../containers/Navigation/Navigation";
 import Landing from "../containers/Landing/Landing"
 import Services from "../containers/Business/Services";
+import Permits from "../containers/Permits/Permits"
 import Footer from "../containers/Footer/Footer";
 
 const Home = () => {
@@ -20,6 +21,7 @@ const Home = () => {
       <Navigation mobile={mobile} />
       <Landing mobile={mobile} />
       <Services mobile={mobile} />
+      <Permits mobile={mobile} />
       <Footer />
     </Grid>
   );

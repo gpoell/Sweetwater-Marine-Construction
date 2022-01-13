@@ -23,7 +23,7 @@ const LandingContent = (props) => {
             style={styles.button}
             startIcon={<PhoneIphoneIcon />}
           >
-            <Typography variant='h6'>Schedule Today</Typography>
+            <Typography variant='button'>Schedule Today</Typography>
         </Button>
       </Grid>
     </>

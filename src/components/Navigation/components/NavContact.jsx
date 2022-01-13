@@ -25,7 +25,7 @@ const NavContact = (props) => {
           size='large'
           startIcon={<PhoneIphoneIcon fontSize='small' />}
         >
-          <Typography variant='h6'>(704) 726-9245</Typography>
+          <Typography variant='button'>(704) 726-9245</Typography>
         </Button>
       </Grid>
     </>

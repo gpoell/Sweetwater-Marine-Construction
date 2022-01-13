@@ -21,7 +21,7 @@ const FooterOne = () => {
           disableElevation
           startIcon={<PhoneIcon />}
         >
-          <Typography variant='h6'>(828) 371-1707</Typography>
+          <Typography variant='button'>(828) 371-1707</Typography>
         </Button>
       </Grid>
     </>

@@ -109,19 +109,19 @@ export default createMuiTheme({
           marginBottom: 15,
         },
       },
-      // Button Labels
+      // Getting Started/Permit Instruction Headers
       h6: {
-        fontSize: 12,
+        fontSize: 20,
         fontWeight: 700,
-        letterSpacing: 1,
-        // iPad
-        "@media (max-width:980px)": {
-          fontSize: 10,
-          letterSpacing: 1,
+        paddingBottom: 10,
+        "@media (max-width:1040px)": {
+          fontSize: 20,
         },
-        // Mobile
+        "@media (max-width:900px)": {
+          fontSize: 20,
+        },
         "@media (max-width:760px)": {
-          fontSize: 14,
+          fontSize: 16,
         },
       },
       // Service Body Content
@@ -136,6 +136,19 @@ export default createMuiTheme({
         "@media (max-width:760px)": {
           fontSize: 14,
           textAlign: "center",
+        },
+      },
+      // Getting Started & Dock Design
+      body2: {
+        fontSize: 18,
+        "@media (max-width:1040px)": {
+          fontSize: 18,
+        },
+        "@media (max-width:900px)": {
+          fontSize: 16,
+        },
+        "@media (max-width:760px)": {
+          fontSize: 14,
         },
       },
       // Footer Two
@@ -159,6 +172,21 @@ export default createMuiTheme({
           paddingBottom: 20,  
         },
       },
+      // Buttons
+      button: {
+        fontSize: 12,
+        fontWeight: 700,
+        letterSpacing: 1,
+        // iPad
+        "@media (max-width:980px)": {
+          fontSize: 10,
+          letterSpacing: 1,
+        },
+        // Mobile
+        "@media (max-width:760px)": {
+          fontSize: 14,
+        },
+      }
     },
     MuiListItemIcon: {
       root: {
