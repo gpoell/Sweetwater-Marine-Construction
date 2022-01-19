@@ -7,14 +7,14 @@ import LooksTwoIcon from '@material-ui/icons/LooksTwo';
 import Looks3Icon from '@material-ui/icons/Looks3';
 // import { styles } from "./styles";
 
-const Permits = props => {
+const Permits = () => {
   return (
       <ContentWrapper style={{ marginBottom: 30, marginTop: 30}}>
         <Grid container item xs={12} justify='center'>
           <Typography variant='h4'>Getting Started</Typography>
         </Grid>
         <Grid container item xs={10} sm={12}>
-          <Typography variant='body2'>The Federal Energy Regulatory Commission (FERC) requires Duke Energy to implement a Shoreline Management Plan that defines what and where specific activities are allowed along the shoreline. Permits are required for all activities within the boundaries of Duke Energy's lake property.</Typography>
+          <Typography variant='body2'>The Federal Energy Regulatory Commission (FERC) requires Duke Energy to implement a Shoreline Management Plan that defines what and where specific activities are allowed along the shoreline. Permits are required for all activities within the boundaries of Duke Energy's lake property. Sweetwater Marine will monitor your permit status which can take up to 45 days for approval.</Typography>
         </Grid>
 
 
@@ -53,7 +53,7 @@ const Permits = props => {
                   target='_blank'
                   rel="noopener noreferrer"
                   title="Permits for Shoreline Activities"
-                ><b>Permits for Shoreline Activities</b></a>
+                >Permits for Shoreline Activities</a>
               </Typography>
             </Grid>
           </Grid>
