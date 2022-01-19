@@ -4,6 +4,7 @@ import Navigation from "../containers/Navigation/Navigation";
 import Landing from "../containers/Landing/Landing"
 import Services from "../containers/Business/Services";
 import Permits from "../containers/Permits/Permits"
+import DockDesign from "../containers/DockDesign/DockDesign"
 import Footer from "../containers/Footer/Footer";
 
 const Home = () => {
@@ -21,7 +22,8 @@ const Home = () => {
       <Navigation mobile={mobile} />
       <Landing mobile={mobile} />
       <Services mobile={mobile} />
-      <Permits mobile={mobile} />
+      <Permits />
+      <DockDesign />
       <Footer />
     </Grid>
   );
