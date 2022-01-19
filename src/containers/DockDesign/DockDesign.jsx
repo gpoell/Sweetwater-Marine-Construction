@@ -7,7 +7,7 @@ const DockDesign = () => {
   return (
       <ContentWrapper style={{ marginBottom: 30, marginTop: 30}}>
         <Grid container item xs={12} justify='center'>
-          <Typography variant='h4'>Dock Design Considerations</Typography>
+          <Typography variant='h4'>Dock Design Recommendations</Typography>
         </Grid>
         <Grid container item xs={10} sm={12}>
           <Typography variant='body2'>The design of your dock can greatly impact the longevity of the structure and its usability. While designing your dock, reference Duke Energy's
