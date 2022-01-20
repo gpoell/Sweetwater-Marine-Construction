@@ -19,11 +19,11 @@ const Home = () => {
 
   return (
     <Grid container>
-      <Navigation mobile={mobile} />
-      <Landing mobile={mobile} />
-      <Services mobile={mobile} />
+      <Navigation mobile={mobile}/>
+      <Landing mobile={mobile}/>
+      <Services mobile={mobile}/>
       <Permits />
-      <DockDesign />
+      <DockDesign mobile={mobile}/>
       <Footer />
     </Grid>
   );

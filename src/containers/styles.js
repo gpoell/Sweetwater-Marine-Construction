@@ -18,6 +18,10 @@ export const styles = {
     paddingTop: 30,
     paddingBottom: 30,
   },
+  dockDesign: {
+    marginBottom: 30,
+    marginTop: 30
+  },
   credentials: {
     paddingTop: 60,
     paddingBottom: 60,
