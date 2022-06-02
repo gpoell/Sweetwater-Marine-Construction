@@ -6,16 +6,15 @@ import custom7 from "./custom7.jpg";
 import custom8 from "./custom8.jpg";
 import custom9 from "./custom9.jpg";
 import custom10 from "./custom10.jpg";
-import custom11 from "./custom11.jpg";
 import custom12 from "./custom12.jpg";
 import custom13 from "./custom13.jpg";
 import custom14 from "./custom14.jpg";
-
-
+import custom15 from "./custom15.jpg";
+import custom16 from "./custom16.jpg";
 
 const customDockImgs = [
   {
-    src: custom11,
+    src: custom1,
     alt: "Sweetwater Marine Construction Custom Docks"
   },
   {
@@ -43,10 +42,6 @@ const customDockImgs = [
     alt: "Sweetwater Marine Construction Custom Docks"
   },
   {
-    src: custom1,
-    alt: "Sweetwater Marine Construction Custom Docks"
-  },
-  {
     src: custom13,
     alt: "Sweetwater Marine Construction Custom Docks"
   },
@@ -60,6 +55,14 @@ const customDockImgs = [
   },
   {
     src: custom7,
+    alt: "Sweetwater Marine Construction Custom Docks"
+  },
+  {
+    src: custom15,
+    alt: "Sweetwater Marine Construction Custom Docks"
+  },
+  {
+    src: custom16,
     alt: "Sweetwater Marine Construction Custom Docks"
   }
 ];
