@@ -30,20 +30,20 @@ export default createMuiTheme({
     MuiTypography: {
       // Landing Page
       h1: {
-        fontSize: 62,
+        fontSize: 54,
         textAlign: "center",
         fontFamily: "Noto Sans JP",
         lineHeight: 1.555556,
         "@media (max-width:1040px)": {
-          fontSize: 46,
+          fontSize: 42,
         },
         "@media (max-width:900px)": {
-          fontSize: 34,
+          fontSize: 32,
           letterSpacing: 1.5,
         },
         "@media (max-width:760px)": {
-          fontSize: 18,
-          color: "#fff"
+          fontSize: 14,
+          color: "#fff",
         },
       },
       // Navigation Header
