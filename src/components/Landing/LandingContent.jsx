@@ -9,7 +9,7 @@ const LandingContent = (props) => {
   return (
     <>
       <Grid container item xs={10} justify='center'>
-        <Typography variant='h1'>Dock Repair and Barge Services</Typography>
+        <Typography variant='h1'>New Docks, Dock Repairs, &amp; Barge Services</Typography>
       </Grid>
       <Grid container item xs={10} justify='center'>
         <Typography variant='h3'>Lake Norman &#8226; Mountain Island Lake &#8226; Lake Wylie</Typography>
