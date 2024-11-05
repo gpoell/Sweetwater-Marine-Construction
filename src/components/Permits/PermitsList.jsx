@@ -24,7 +24,7 @@ const PermitsList = () => {
         </Grid>
       </Grid>
 
-      <Grid container item xs={10} sm={10} md={4} style={{ paddingTop: 30 }}>
+      {/* <Grid container item xs={10} sm={10} md={4} style={{ paddingTop: 30 }}>
         <Grid container item xs={2} sm={1}>
           <LooksTwoIcon color='secondary' fontSize='small'/>
         </Grid>
@@ -47,11 +47,11 @@ const PermitsList = () => {
             >Permits for Shoreline Activities</Link>
           </Typography>
         </Grid>
-      </Grid>
+      </Grid> */}
 
       <Grid container item xs={10} sm={10} md={4} style={{ paddingTop: 30 }}>
         <Grid container item xs={2} sm={1}>
-          <Looks3Icon color='secondary' fontSize='small'/>
+          <LooksTwoIcon color='secondary' fontSize='small'/>
         </Grid>
         <Grid container item xs={10} sm={11}>
           <Typography variant='h6'>Contact Us</Typography>
